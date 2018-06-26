@@ -13,7 +13,7 @@ df[,1] <- as.POSIXct(df[,1],format="%d/%m/%Y")
 df[,"DateTime"] <- as.POSIXct(df[,"DateTime"],format="%d/%m/%Y %H:%M:%S")
 
 # plot
-png(filename = "myplot1.png", width = 480, height = 480)
+png(filename = "plot1.png", width = 480, height = 480)
 xLabel <- "Global Active Power (kilowatts)"
 yLabel <- "Frequency"
 mainTitle <- "Global Active Power"
